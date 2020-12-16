@@ -39,6 +39,7 @@ module.exports = {
   ],
   devServer: {
     port : process.env['PORT'] || 8080,
-    public: process.env["C9_PID"] + ".vfs.cloud9.ap-northeast-1.amazonaws.com",
+    //public: process.env["C9_PID"] + ".vfs.cloud9.ap-northeast-1.amazonaws.com",
+    public: "phaser-game-test.herokuapp.com",
   },
 };
