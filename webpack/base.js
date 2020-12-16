@@ -38,7 +38,7 @@ module.exports = {
     })
   ],
   devServer: {
-    port: 8080,
+    port : process.env['PORT'] || 8080,
     public: process.env["C9_PID"] + ".vfs.cloud9.ap-northeast-1.amazonaws.com",
   },
 };
