@@ -5,7 +5,6 @@
   "main": "src/index.js",
   "scripts": {
     "build": "webpack --config webpack/prod.js",
-    //"start": "node_modules/.bin/webpack-dev-server --config webpack/base.js"
     "start": "node_modules/.bin/http-server ./dist"
   },
   "author": "",
